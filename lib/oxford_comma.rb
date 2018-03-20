@@ -7,8 +7,6 @@ def oxford_comma(array)
     # code here
     last = array[-1]
     begin_string = array[0..-2].join(", ")
-
-    # begin_string << last
-
+    begin_string << "and #{last}.""
   end
 end
