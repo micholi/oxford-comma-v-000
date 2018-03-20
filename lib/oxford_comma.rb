@@ -6,7 +6,7 @@ def oxford_comma(array)
   elsif array.size >= 3
     # code here
     last = array[-1]
-    begin_string = array.join(", ")
+    begin_string = array[0..-2].join(", ")
 
     begin_string << last
   # elsif array.size > 3
